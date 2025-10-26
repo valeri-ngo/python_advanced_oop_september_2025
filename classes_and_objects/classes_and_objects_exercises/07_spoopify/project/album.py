@@ -1,11 +1,12 @@
-from .song import Song
+from project.song import Song
+
 
 class Album:
 
-    def __init__(self, name: str):
+    def __init__(self, name: str, published = False):
         self.name = name
-        self.published = False
-        self.songs = []
+        self.published: bool = published
+        self.songs: list = []
 
     def add_song(self, song: Song):
         if self.published:

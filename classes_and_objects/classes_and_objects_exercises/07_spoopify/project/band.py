@@ -1,4 +1,5 @@
-from .album import Album
+from project.album import Album
+
 
 class Band:
 
