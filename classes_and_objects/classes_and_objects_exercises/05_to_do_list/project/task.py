@@ -22,9 +22,10 @@ class Task:
         self.comments.append(comment)
 
     def edit_comment(self, comment_number: int, new_comment: str):
-        if 0 > comment_number or comment_number >= len(self.comments):
-            return "Cannot find comment."
-        self.comments[comment_number] = new_comment
+        try:
+            self.comments[comment_number] = new_comment
+        except IndexError:
+            return "Cannot find comment"
         return ", ".join(self.comments)
 
     def details(self):
