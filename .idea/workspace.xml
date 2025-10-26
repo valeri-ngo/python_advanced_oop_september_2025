@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Classes and Objects exercises.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Inheritance exercises." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -428,7 +426,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761477581867</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Inheritance lab.">
+      <option name="closed" value="true" />
+      <created>1761512895272</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1761512895272</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Inheritance exercises.">
+      <option name="closed" value="true" />
+      <created>1761512934398</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1761512934398</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -472,7 +486,9 @@
     <MESSAGE value="First Steps in OOP exercises." />
     <MESSAGE value="Classes and Objects lab." />
     <MESSAGE value="Classes and Objects exercises." />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes and Objects exercises." />
+    <MESSAGE value="Inheritance lab." />
+    <MESSAGE value="Inheritance exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance exercises." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
