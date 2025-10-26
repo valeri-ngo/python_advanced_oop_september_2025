@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Classes and Objects exercises.">
-      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/guild.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/guild.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/band.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,9 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python tests.Python tests for test.SongTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_person.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_person.executor&quot;: &quot;Run&quot;,
     &quot;Python.01_rhombus_of_stars.executor&quot;: &quot;Run&quot;,
     &quot;Python.01_shop.executor&quot;: &quot;Run&quot;,
     &quot;Python.01_vehicle.executor&quot;: &quot;Run&quot;,
@@ -91,6 +88,7 @@
     &quot;Python.task.executor&quot;: &quot;Run&quot;,
     &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (3).executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.trainer.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -104,14 +102,36 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters" />
       <recent name="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system" />
       <recent name="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/05_to_do_list" />
       <recent name="$PROJECT_DIR$/first_steps_in_oop/first_steps_in_oop_exercises/08_pokemon_battle/project" />
       <recent name="$PROJECT_DIR$/first_steps_in_oop/first_steps_in_oop_exercises/08_pokemon_battle" />
-      <recent name="$PROJECT_DIR$/first_steps_in_oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (3)">
+  <component name="RunManager" selected="Python.test (2)">
+    <configuration name="01_person" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/01_person.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python_advanced_oop_september_2025" />
       <option name="ENV_FILES" value="" />
@@ -143,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/08_library" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises/02_zoo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/08_library/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/02_zoo/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,33 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/05_to_do_list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises/01_person" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/05_to_do_list/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/01_person/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in /home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.Tests.test_person" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_advanced_oop_september_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,17 +231,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test.Tests.test_person&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (3)" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.Python tests in /home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py" />
+        <item itemvalue="Python.01_person" />
+        <item itemvalue="Python tests.Python tests for test.Tests.test_person" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +404,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761472589529</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761477552079</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1761477552079</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761477570111</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1761477570111</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761477581867</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761477581867</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +484,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/album.py</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
