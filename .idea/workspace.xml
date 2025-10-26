@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Classes and Objects exercises.">
+      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/guild.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/guild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/project/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/band.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;valeri-ngo&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="dc242371-2222-431b-8e3e-b2386e603cc4" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/valeri-ngo/python_advanced_oop_september_2025.git&quot;,
+    &quot;accountId&quot;: &quot;dc242371-2222-431b-8e3e-b2386e603cc4&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="34QR4h42Z9kz4ldXZ6CmM0Obaco" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test.SongTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_rhombus_of_stars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_shop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_vehicle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_vet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_hero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_point.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_scope_mess.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_time.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_class_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_employee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_cup.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_glass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_pizza_delivery.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_flower.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_music.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_smartphone.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_steam_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_programmer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guild.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pokemon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.section (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.section.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trainer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system" />
+      <recent name="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/05_to_do_list" />
+      <recent name="$PROJECT_DIR$/first_steps_in_oop/first_steps_in_oop_exercises/08_pokemon_battle/project" />
+      <recent name="$PROJECT_DIR$/first_steps_in_oop/first_steps_in_oop_exercises/08_pokemon_battle" />
+      <recent name="$PROJECT_DIR$/first_steps_in_oop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test (3)">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/08_library" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/08_library/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/05_to_do_list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/05_to_do_list/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in /home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (3)" />
+        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Python tests in /home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025/classes_and_objects/classes_and_objects_exercises/07_spoopify/test.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-1f77c24022e5-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="" />
+      <created>1761143619232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761143619232</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761163665227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761163665227</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761163707785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761163707785</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761163720750</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761163720750</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761163808545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761163808545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761165932909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761165932909</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761166186686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761166186686</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761195001682</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761195001682</updated>
+    </task>
+    <task id="LOCAL-00008" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761199601505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761199601505</updated>
+    </task>
+    <task id="LOCAL-00009" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761199655763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761199655763</updated>
+    </task>
+    <task id="LOCAL-00010" summary="First Steps in OOP lab.">
+      <option name="closed" value="true" />
+      <created>1761199965161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761199965161</updated>
+    </task>
+    <task id="LOCAL-00011" summary="First Steps in OOP exercises.">
+      <option name="closed" value="true" />
+      <created>1761216636485</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761216636485</updated>
+    </task>
+    <task id="LOCAL-00012" summary="First Steps in OOP exercises.">
+      <option name="closed" value="true" />
+      <created>1761250256324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761250256324</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Classes and Objects lab.">
+      <option name="closed" value="true" />
+      <created>1761323947508</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761323947508</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761386565742</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761386565742</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761386637637</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761386637637</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761414353375</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761414353375</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761423519487</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761423519488</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Classes and Objects exercises.">
+      <option name="closed" value="true" />
+      <created>1761472589529</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761472589529</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="15a13650-4b55-4ea3-9bcb-974c259684b6" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="15a13650-4b55-4ea3-9bcb-974c259684b6">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Steps in OOP lab." />
+    <MESSAGE value="First Steps in OOP exercises." />
+    <MESSAGE value="Classes and Objects lab." />
+    <MESSAGE value="Classes and Objects exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes and Objects exercises." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/first_steps_in_oop/first_steps_in_oop_exercises/07_programmer.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/07_spoopify/project/album.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
