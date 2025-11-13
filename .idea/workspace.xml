@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Inheritance exercises." />
+    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Polymorphism and Abstraction exercises.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism_and_abstraction/polymorphism_and_abstraction_exercises/04_wild_farm/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/polymorphism_and_abstraction_exercises/04_wild_farm/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,65 +53,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test.SongTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.Tests.test_person.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_person.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_rhombus_of_stars.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_shop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_vehicle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_vet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_hero.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_point.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_scope_mess.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_time.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_circle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_class_book.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_employee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_car.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_cup.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_glass.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_pizza_delivery.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_flower.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_music.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_smartphone.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_steam_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_programmer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guild.executor&quot;: &quot;Run&quot;,
-    &quot;Python.player.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pokemon.executor&quot;: &quot;Run&quot;,
-    &quot;Python.section (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.section.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trainer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections.executor": "Run",
+    "Python tests.Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations.executor": "Run",
+    "Python tests.Python tests for test.SongTest.executor": "Run",
+    "Python tests.Python tests for test.Tests.executor": "Run",
+    "Python tests.Python tests for test.Tests.test_init_creates_all_attributes.executor": "Run",
+    "Python tests.Python tests for test.Tests.test_person.executor": "Run",
+    "Python tests.Python tests for test.Tests.test_pizza_add_topping_new.executor": "Run",
+    "Python tests.Python tests for test.Tests.test_pizza_calculate_total_weight.executor": "Run",
+    "Python tests.Python tests for test.Tests.test_print_status.executor": "Run",
+    "Python tests.Python tests for test.Tests.test_team_remove_successful.executor": "Run",
+    "Python tests.Python tests for test.Tests.test_worker_status.executor": "Run",
+    "Python tests.Python tests for test.TestsMovieWorld.test_movie_world_repr.executor": "Run",
+    "Python tests.Python tests in 01_vehicles.py.executor": "Run",
+    "Python tests.Python tests in 03_integer.py.executor": "Run",
+    "Python tests.Python tests in test.py (1).executor": "Run",
+    "Python tests.Python tests in test.py.executor": "Run",
+    "Python.01_calculator.executor": "Run",
+    "Python.01_person.executor": "Run",
+    "Python.01_photo_album.executor": "Run",
+    "Python.01_rhombus_of_stars.executor": "Run",
+    "Python.01_shop.executor": "Run",
+    "Python.01_vehicle.executor": "Run",
+    "Python.01_vehicles.executor": "Run",
+    "Python.01_vet.executor": "Run",
+    "Python.02_groups.executor": "Run",
+    "Python.02_hero.executor": "Run",
+    "Python.02_image_area.executor": "Run",
+    "Python.02_mammal.executor": "Run",
+    "Python.02_point.executor": "Run",
+    "Python.02_scope_mess.executor": "Run",
+    "Python.02_shop.executor": "Run",
+    "Python.02_time.executor": "Run",
+    "Python.03_account.executor": "Run",
+    "Python.03_circle.executor": "Run",
+    "Python.03_class_book.executor": "Run",
+    "Python.03_employee.executor": "Run",
+    "Python.03_integer.executor": "Run",
+    "Python.03_playing.executor": "Run",
+    "Python.03_profile.executor": "Run",
+    "Python.04_car.executor": "Run",
+    "Python.04_cup.executor": "Run",
+    "Python.04_email_validator.executor": "Run",
+    "Python.04_glass.executor": "Run",
+    "Python.04_pizza_delivery.executor": "Run",
+    "Python.04_shapes.executor": "Run",
+    "Python.05_account.executor": "Run",
+    "Python.05_flower.executor": "Run",
+    "Python.05_music.executor": "Run",
+    "Python.05_smartphone.executor": "Run",
+    "Python.06_steam_user.executor": "Run",
+    "Python.07_programmer.executor": "Run",
+    "Python.add_task.executor": "Run",
+    "Python.auction_house_manager_app.executor": "Run",
+    "Python.drink.executor": "Run",
+    "Python.exercise_plant.executor": "Run",
+    "Python.guild.executor": "Run",
+    "Python.player.executor": "Run",
+    "Python.pokemon.executor": "Run",
+    "Python.robots.executor": "Run",
+    "Python.section (1).executor": "Run",
+    "Python.section.executor": "Run",
+    "Python.task.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test (2).executor": "Run",
+    "Python.test (3).executor": "Run",
+    "Python.test (4).executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.tomcat.executor": "Run",
+    "Python.trainer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/valeri_ngo/Downloads/яве",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myCodeCompletionOption" value="Runtime" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/polymorphism_and_abstraction/polymorphism_and_abstraction_exercises/04_wild_farm" />
+      <recent name="$PROJECT_DIR$/polymorphism_and_abstraction" />
+      <recent name="$PROJECT_DIR$/class_and_static_methods/class_and_static_methods_exercises/03_document_manager/project" />
+      <recent name="$PROJECT_DIR$/class_and_static_methods/class_and_static_methods_lab/04_hotel_rooms" />
       <recent name="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters" />
-      <recent name="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/06_guild_system" />
-      <recent name="$PROJECT_DIR$/classes_and_objects/classes_and_objects_exercises/05_to_do_list" />
-      <recent name="$PROJECT_DIR$/first_steps_in_oop/first_steps_in_oop_exercises/08_pokemon_battle/project" />
-      <recent name="$PROJECT_DIR$/first_steps_in_oop/first_steps_in_oop_exercises/08_pokemon_battle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
-    <configuration name="01_person" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations">
+    <configuration name="auction_house_manager_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced_oop_september_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_prem/08_december_2024/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/01_person.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_prem/08_december_2024/project/auction_house_manager_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced_oop_september_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises/02_zoo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_prem/08_december_2024/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/02_zoo/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_prem/08_december_2024/project/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,51 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/inheritance_exercises/01_person" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/inheritance_exercises/01_person/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.Tests.test_person" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_advanced_oop_september_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,24 +224,54 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.Tests.test_person&quot;" />
+      <option name="_new_target" value="&quot;project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/exam_prem/08_december_2024/project/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (2)" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.01_person" />
-        <item itemvalue="Python tests.Python tests for test.Tests.test_person" />
+        <item itemvalue="Python tests.Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations" />
+        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests for project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections" />
+        <item itemvalue="Python.test (4)" />
+        <item itemvalue="Python.auction_house_manager_app" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1f77c24022e5-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.26830.99" />
+        <option value="bundled-python-sdk-f69e5c277ee4-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.27397.106" />
       </set>
     </attachedChunks>
   </component>
@@ -442,7 +467,151 @@
       <option name="project" value="LOCAL" />
       <updated>1761512934398</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Inheritance lab.">
+      <option name="closed" value="true" />
+      <created>1761512994684</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1761512994684</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Inheritance exercises.">
+      <option name="closed" value="true" />
+      <created>1761513033785</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1761513033785</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Inheritance exercises.">
+      <option name="closed" value="true" />
+      <created>1761513129173</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1761513129173</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Inheritance exercises.">
+      <option name="closed" value="true" />
+      <created>1761513135553</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761513135553</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Inheritance exercises.">
+      <option name="closed" value="true" />
+      <created>1761516995654</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761516995654</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Encapsulation lab and exercises.">
+      <option name="closed" value="true" />
+      <created>1762294207323</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1762294207323</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Encapsulation lab and exercises.">
+      <option name="closed" value="true" />
+      <created>1762527221967</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1762527221967</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Class and Static methods lab and exercises.">
+      <option name="closed" value="true" />
+      <created>1762617420905</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1762617420905</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Delete">
+      <option name="closed" value="true" />
+      <created>1762617567273</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1762617567273</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Class and Static methods exercises.">
+      <option name="closed" value="true" />
+      <created>1762685335084</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1762685335084</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Polimorphism and Abstraction lab.">
+      <option name="closed" value="true" />
+      <created>1762685360555</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1762685360555</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Polimorphism and Abstraction lab.">
+      <option name="closed" value="true" />
+      <created>1762687603235</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1762687603235</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Polimorphism and Abstraction lab.">
+      <option name="closed" value="true" />
+      <created>1762687611881</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1762687611881</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Polymorphism and Abstraction lab.">
+      <option name="closed" value="true" />
+      <created>1762700981867</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1762700981867</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Polymorphism and Abstraction lab.">
+      <option name="closed" value="true" />
+      <created>1762702607815</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1762702607815</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Polymorphism and Abstraction exercises.">
+      <option name="closed" value="true" />
+      <created>1762706732452</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1762706732452</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Polymorphism and Abstraction exercises.">
+      <option name="closed" value="true" />
+      <created>1762708362771</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1762708362771</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Polymorphism and Abstraction exercises.">
+      <option name="closed" value="true" />
+      <created>1762723963117</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1762723963117</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,7 +657,14 @@
     <MESSAGE value="Classes and Objects exercises." />
     <MESSAGE value="Inheritance lab." />
     <MESSAGE value="Inheritance exercises." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance exercises." />
+    <MESSAGE value="Encapsulation lab and exercises." />
+    <MESSAGE value="Class and Static methods lab and exercises." />
+    <MESSAGE value="Delete" />
+    <MESSAGE value="Class and Static methods exercises." />
+    <MESSAGE value="Polimorphism and Abstraction lab." />
+    <MESSAGE value="Polymorphism and Abstraction lab." />
+    <MESSAGE value="Polymorphism and Abstraction exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism and Abstraction exercises." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
