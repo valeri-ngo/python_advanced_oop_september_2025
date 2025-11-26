@@ -1,19 +1,20 @@
-def count_calls(func):
-    count = 0
+def logged(func):
+    
+    def wrapper(*args):
 
-    def wrapper(*args, **kwargs):
-        nonlocal count
-        count += 1
-        func(*args, **kwargs)
-        print(f'Printed {count} times')
+        result = func(*args)
+
+        return f'you called {func.__name__}{args}\nit returned {result}'
+    
     return wrapper
 
 
-@count_calls
-def add(a, b):
+@logged
+def func(*args):
+    return 3 + len(args)
+print(func(4, 4, 4))
+print()
+@logged
+def sum_func(a, b):
     return a + b
-
-add(1, 2)
-add(5, 7)
-add(0, 0)
-# Function add was called 3 times
+print(sum_func(1, 4))
