@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Polymorphism and Abstraction exercises.">
+    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Decorators lab.">
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battle_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/base_battleship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/pirate_battleship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/royal_battleship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/base_zone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/pirate_zone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/royal_battlezone.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polymorphism_and_abstraction/polymorphism_and_abstraction_exercises/04_wild_farm/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/polymorphism_and_abstraction_exercises/04_wild_farm/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,50 +77,80 @@
     "Python tests.Python tests for test.Tests.test_team_remove_successful.executor": "Run",
     "Python tests.Python tests for test.Tests.test_worker_status.executor": "Run",
     "Python tests.Python tests for test.TestsMovieWorld.test_movie_world_repr.executor": "Run",
+    "Python tests.Python tests in 01_custom_range.py.executor": "Run",
     "Python tests.Python tests in 01_vehicles.py.executor": "Run",
     "Python tests.Python tests in 03_integer.py.executor": "Run",
     "Python tests.Python tests in test.py (1).executor": "Run",
     "Python tests.Python tests in test.py.executor": "Run",
     "Python.01_calculator.executor": "Run",
+    "Python.01_custom_range.executor": "Run",
+    "Python.01_logged.executor": "Run",
+    "Python.01_number_increment.executor": "Run",
     "Python.01_person.executor": "Run",
     "Python.01_photo_album.executor": "Run",
     "Python.01_rhombus_of_stars.executor": "Run",
     "Python.01_shop.executor": "Run",
+    "Python.01_take_skip.executor": "Run",
     "Python.01_vehicle.executor": "Run",
     "Python.01_vehicles.executor": "Run",
     "Python.01_vet.executor": "Run",
+    "Python.01_workers.executor": "Run",
+    "Python.02_animal.executor": "Run",
+    "Python.02_dictionary_iterator.executor": "Run",
     "Python.02_groups.executor": "Run",
     "Python.02_hero.executor": "Run",
     "Python.02_image_area.executor": "Run",
     "Python.02_mammal.executor": "Run",
     "Python.02_point.executor": "Run",
+    "Python.02_reverse_iter.executor": "Run",
     "Python.02_scope_mess.executor": "Run",
     "Python.02_shop.executor": "Run",
     "Python.02_time.executor": "Run",
+    "Python.02_vowel_filter.executor": "Run",
+    "Python.02_workers_updated.executor": "Run",
     "Python.03_account.executor": "Run",
+    "Python.03_bolt_italic_underline.executor": "Run",
     "Python.03_circle.executor": "Run",
     "Python.03_class_book.executor": "Run",
+    "Python.03_countdown_iterator.executor": "Run",
     "Python.03_employee.executor": "Run",
+    "Python.03_even_numbers.executor": "Run",
     "Python.03_integer.executor": "Run",
     "Python.03_playing.executor": "Run",
     "Python.03_profile.executor": "Run",
+    "Python.03_vowels.executor": "Run",
     "Python.04_car.executor": "Run",
     "Python.04_cup.executor": "Run",
     "Python.04_email_validator.executor": "Run",
     "Python.04_glass.executor": "Run",
+    "Python.04_multiply.executor": "Run",
     "Python.04_pizza_delivery.executor": "Run",
+    "Python.04_sequence_repeat.executor": "Run",
     "Python.04_shapes.executor": "Run",
+    "Python.04_squares.executor": "Run",
     "Python.05_account.executor": "Run",
+    "Python.05_emails.executor": "Run",
     "Python.05_flower.executor": "Run",
+    "Python.05_generator_range.executor": "Run",
     "Python.05_music.executor": "Run",
+    "Python.05_print_books.executor": "Run",
     "Python.05_smartphone.executor": "Run",
+    "Python.05_take_halves.executor": "Run",
+    "Python.06_fibonacci_generator.executor": "Run",
+    "Python.06_reverse_string.executor": "Run",
     "Python.06_steam_user.executor": "Run",
+    "Python.07_notification_system.executor": "Run",
     "Python.07_programmer.executor": "Run",
+    "Python.07_reader.executor": "Run",
+    "Python.08_payment_system.executor": "Run",
+    "Python.08_prime_numbers.executor": "Run",
+    "Python.09_possible_permutations.executor": "Run",
     "Python.add_task.executor": "Run",
     "Python.auction_house_manager_app.executor": "Run",
     "Python.drink.executor": "Run",
     "Python.exercise_plant.executor": "Run",
     "Python.guild.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.player.executor": "Run",
     "Python.pokemon.executor": "Run",
     "Python.robots.executor": "Run",
@@ -129,7 +168,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/valeri_ngo/Downloads/яве",
+    "last_opened_file_path": "/home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025/solid_principles/solid_principles_exercises",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -138,6 +177,9 @@
     <option name="myCodeCompletionOption" value="Runtime" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/solid_principles/solid_principles_exercises" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/polymorphism_and_abstraction/polymorphism_and_abstraction_exercises/04_wild_farm" />
       <recent name="$PROJECT_DIR$/polymorphism_and_abstraction" />
@@ -146,8 +188,8 @@
       <recent name="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations">
-    <configuration name="auction_house_manager_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.03_bolt_italic_underline">
+    <configuration name="01_logged" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced_oop_september_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +198,99 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_prem/08_december_2024/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_prem/08_december_2024/project/auction_house_manager_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_exercises/01_logged.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_bolt_italic_underline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_exercises/03_bolt_italic_underline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_lab/03_even_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_multiply" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_lab/04_multiply.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_lab/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,80 +321,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_prem/08_december_2024/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_prem/08_december_2024/project/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/exam_prem/08_december_2024/project/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations" />
-        <item itemvalue="Python tests.Python tests in test.py" />
-        <item itemvalue="Python tests.Python tests for project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections" />
-        <item itemvalue="Python.test (4)" />
-        <item itemvalue="Python.auction_house_manager_app" />
+        <item itemvalue="Python.03_bolt_italic_underline" />
+        <item itemvalue="Python.01_logged" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.04_multiply" />
+        <item itemvalue="Python.03_even_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +674,71 @@
       <option name="project" value="LOCAL" />
       <updated>1762723963117</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Exam prep.">
+      <option name="closed" value="true" />
+      <created>1763042558137</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1763042558137</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Exam prep.">
+      <option name="closed" value="true" />
+      <created>1763042569458</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1763042569458</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Polymorphism and Abstraction exercises.">
+      <option name="closed" value="true" />
+      <created>1763042603449</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1763042603449</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Solid principles lab and exercises.">
+      <option name="closed" value="true" />
+      <created>1763499123686</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1763499123686</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Iterators and Generators lab.">
+      <option name="closed" value="true" />
+      <created>1763563688183</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1763563688183</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Iterators and Generators lab.">
+      <option name="closed" value="true" />
+      <created>1763585930092</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1763585930092</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Iterators and Generators exercises.">
+      <option name="closed" value="true" />
+      <created>1763760440678</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1763760440678</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Decorators lab.">
+      <option name="closed" value="true" />
+      <created>1763916260731</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1763916260731</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -663,8 +790,13 @@
     <MESSAGE value="Class and Static methods exercises." />
     <MESSAGE value="Polimorphism and Abstraction lab." />
     <MESSAGE value="Polymorphism and Abstraction lab." />
+    <MESSAGE value="Exam prep." />
     <MESSAGE value="Polymorphism and Abstraction exercises." />
-    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism and Abstraction exercises." />
+    <MESSAGE value="Solid principles lab and exercises." />
+    <MESSAGE value="Iterators and Generators lab." />
+    <MESSAGE value="Iterators and Generators exercises." />
+    <MESSAGE value="Decorators lab." />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorators lab." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,5 +820,13 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
