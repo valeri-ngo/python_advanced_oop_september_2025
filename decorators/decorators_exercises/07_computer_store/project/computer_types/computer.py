@@ -52,11 +52,11 @@ class Computer(ABC):
     def configure_computer(self, processor: str, ram: int):
 
         if processor not in self.available_processors:
-            raise ValueError(f'{self.processor} is not compatible with'
+            raise ValueError(f'{processor} is not compatible with'
                     f' {str(self)} {self.manufacturer} {self.model}!')
 
         if ram not in self.valid_ram:
-            raise ValueError(f'{self.ram}GB RAM is not compatible with '
+            raise ValueError(f'{ram}GB RAM is not compatible with '
                              f'{str(self)} {self.manufacturer} {self.model}!')
 
         processor_price = self.available_processors[processor]
