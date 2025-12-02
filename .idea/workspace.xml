@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Decorators lab.">
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battle_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/base_battleship.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/pirate_battleship.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/royal_battleship.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/base_zone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/pirate_zone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/royal_battlezone.py" afterDir="false" />
+    <list default="true" id="2b47579e-e268-417e-a4f6-3880b7aa8c00" name="Changes" comment="Tests lab.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battle_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battle_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/base_battleship.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/base_battleship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/pirate_battleship.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/pirate_battleship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/royal_battleship.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/battleships/royal_battleship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/base_zone.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/base_zone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/pirate_zone.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/pirate_zone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/royal_battlezone.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_prem/14_august_2024/project/zones/royal_zone.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,243 +60,180 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections.executor": "Run",
-    "Python tests.Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations.executor": "Run",
-    "Python tests.Python tests for test.SongTest.executor": "Run",
-    "Python tests.Python tests for test.Tests.executor": "Run",
-    "Python tests.Python tests for test.Tests.test_init_creates_all_attributes.executor": "Run",
-    "Python tests.Python tests for test.Tests.test_person.executor": "Run",
-    "Python tests.Python tests for test.Tests.test_pizza_add_topping_new.executor": "Run",
-    "Python tests.Python tests for test.Tests.test_pizza_calculate_total_weight.executor": "Run",
-    "Python tests.Python tests for test.Tests.test_print_status.executor": "Run",
-    "Python tests.Python tests for test.Tests.test_team_remove_successful.executor": "Run",
-    "Python tests.Python tests for test.Tests.test_worker_status.executor": "Run",
-    "Python tests.Python tests for test.TestsMovieWorld.test_movie_world_repr.executor": "Run",
-    "Python tests.Python tests in 01_custom_range.py.executor": "Run",
-    "Python tests.Python tests in 01_vehicles.py.executor": "Run",
-    "Python tests.Python tests in 03_integer.py.executor": "Run",
-    "Python tests.Python tests in test.py (1).executor": "Run",
-    "Python tests.Python tests in test.py.executor": "Run",
-    "Python.01_calculator.executor": "Run",
-    "Python.01_custom_range.executor": "Run",
-    "Python.01_logged.executor": "Run",
-    "Python.01_number_increment.executor": "Run",
-    "Python.01_person.executor": "Run",
-    "Python.01_photo_album.executor": "Run",
-    "Python.01_rhombus_of_stars.executor": "Run",
-    "Python.01_shop.executor": "Run",
-    "Python.01_take_skip.executor": "Run",
-    "Python.01_vehicle.executor": "Run",
-    "Python.01_vehicles.executor": "Run",
-    "Python.01_vet.executor": "Run",
-    "Python.01_workers.executor": "Run",
-    "Python.02_animal.executor": "Run",
-    "Python.02_dictionary_iterator.executor": "Run",
-    "Python.02_groups.executor": "Run",
-    "Python.02_hero.executor": "Run",
-    "Python.02_image_area.executor": "Run",
-    "Python.02_mammal.executor": "Run",
-    "Python.02_point.executor": "Run",
-    "Python.02_reverse_iter.executor": "Run",
-    "Python.02_scope_mess.executor": "Run",
-    "Python.02_shop.executor": "Run",
-    "Python.02_time.executor": "Run",
-    "Python.02_vowel_filter.executor": "Run",
-    "Python.02_workers_updated.executor": "Run",
-    "Python.03_account.executor": "Run",
-    "Python.03_bolt_italic_underline.executor": "Run",
-    "Python.03_circle.executor": "Run",
-    "Python.03_class_book.executor": "Run",
-    "Python.03_countdown_iterator.executor": "Run",
-    "Python.03_employee.executor": "Run",
-    "Python.03_even_numbers.executor": "Run",
-    "Python.03_integer.executor": "Run",
-    "Python.03_playing.executor": "Run",
-    "Python.03_profile.executor": "Run",
-    "Python.03_vowels.executor": "Run",
-    "Python.04_car.executor": "Run",
-    "Python.04_cup.executor": "Run",
-    "Python.04_email_validator.executor": "Run",
-    "Python.04_glass.executor": "Run",
-    "Python.04_multiply.executor": "Run",
-    "Python.04_pizza_delivery.executor": "Run",
-    "Python.04_sequence_repeat.executor": "Run",
-    "Python.04_shapes.executor": "Run",
-    "Python.04_squares.executor": "Run",
-    "Python.05_account.executor": "Run",
-    "Python.05_emails.executor": "Run",
-    "Python.05_flower.executor": "Run",
-    "Python.05_generator_range.executor": "Run",
-    "Python.05_music.executor": "Run",
-    "Python.05_print_books.executor": "Run",
-    "Python.05_smartphone.executor": "Run",
-    "Python.05_take_halves.executor": "Run",
-    "Python.06_fibonacci_generator.executor": "Run",
-    "Python.06_reverse_string.executor": "Run",
-    "Python.06_steam_user.executor": "Run",
-    "Python.07_notification_system.executor": "Run",
-    "Python.07_programmer.executor": "Run",
-    "Python.07_reader.executor": "Run",
-    "Python.08_payment_system.executor": "Run",
-    "Python.08_prime_numbers.executor": "Run",
-    "Python.09_possible_permutations.executor": "Run",
-    "Python.add_task.executor": "Run",
-    "Python.auction_house_manager_app.executor": "Run",
-    "Python.drink.executor": "Run",
-    "Python.exercise_plant.executor": "Run",
-    "Python.guild.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.player.executor": "Run",
-    "Python.pokemon.executor": "Run",
-    "Python.robots.executor": "Run",
-    "Python.section (1).executor": "Run",
-    "Python.section.executor": "Run",
-    "Python.task.executor": "Run",
-    "Python.test (1).executor": "Run",
-    "Python.test (2).executor": "Run",
-    "Python.test (3).executor": "Run",
-    "Python.test (4).executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.tomcat.executor": "Run",
-    "Python.trainer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025/solid_principles/solid_principles_exercises",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.03_integer_list.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.IntegerList.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for 02_test_cat.CatTests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for 02_test_cat.CatTests.test_cat_is_hungry_sleep_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for 03_list.IntegerListTests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery.test_add_exhibition.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery.test_gallery_name_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.TestAuctionHouseManagerApp.test_get_auction_report_contains_expected_sections.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.TestAuctionHouseManagerFull.test_purchased_artifact_objects_integrity_after_multiple_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_city_name_starting_with_letter_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_gallery_name_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_list_exhibition_when_open_to_public_returns_list_of_exhibitions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_list_exhibitions_when_closed_to_public_returns_msg.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_open_for_public.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_remove_exhibition.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_remove_exhibition_if_exists.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for project.test.test.TestGallery.test_sq_m_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.SongTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.TestComputerStoreAppClass.test_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_init_creates_all_attributes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_person.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_pizza_add_topping_new.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_pizza_calculate_total_weight.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_print_status.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_team_remove_successful.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.Tests.test_worker_status.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.TestsMovieWorld.test_movie_world_repr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.car_manager.CarTest.test_drive_exact_fuel_amount.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.car_manager.CarTest.test_drive_if_fuel_is_less_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.car_manager.CarTest.test_fuel_amount_if_is_valid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.car_manager.CarTest.test_fuel_consumption_zero_or_negative_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.car_manager.CarTest.test_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.car_manager.CarTest.test_make_null_or_empty_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.car_manager.CarTest.test_model_null_or_empty_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.integer_list.IntegerListTests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.integer_list.IntegerListTests.test_get_biggest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.integer_list.IntegerListTests.test_get_idx.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.integer_list.IntegerListTests.test_insert.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.integer_list.IntegerListTests.test_insert_invalid_int_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.integer_list.IntegerListTests.test_remove_idx.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for testing.testing_lab.integer_list.IntegerListTests.test_remove_idx_not_a_valid_idx_raises.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 01_custom_range.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 01_test_worker.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 01_vehicles.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 02_test_cat.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 03_integer.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 03_list.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in car_manager.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in integer_list.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_custom_range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_logged.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_number_increment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_person.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_photo_album.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_rhombus_of_stars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_shop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_take_skip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_vehicle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_vehicles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_vet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_workers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_animal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_dictionary_iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_groups.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_hero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_image_area.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_mammal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_point.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_reverse_iter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_scope_mess.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_shop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_time.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_vowel_filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_workers_updated.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_bolt_italic_underline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_class_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_countdown_iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_employee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_even_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_integer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_playing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_profile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_vowels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_cup.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_email_validator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_glass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_multiply.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_pizza_delivery.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_sequence_repeat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_shapes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_squares.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_emails.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_flower.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_generator_range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_music.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_print_books.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_smartphone.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_take_halves.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_fibonacci_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_reverse_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_steam_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_notification_system.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_programmer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_reader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_payment_system.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_prime_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_execution_time.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_possible_permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auction_house_manager_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.drink.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_plant.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guild.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.player.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pokemon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.robots.executor&quot;: &quot;Run&quot;,
+    &quot;Python.section (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.section.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tomcat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trainer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/valeri_ngo/PycharmProjects/python_advanced_oop_september_2025/exam_prem/test_18_december_2024&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python_advanced_oop_september_2025" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="python_advanced_oop_september_2025" />
+      </console-settings>
+    </option>
     <option name="myCodeCompletionOption" value="Runtime" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exam_prem/test_18_december_2024" />
+      <recent name="$PROJECT_DIR$/exam_prem/18_december_2024/test" />
       <recent name="$PROJECT_DIR$/solid_principles/solid_principles_exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/decorators/decorators_exercises/07_computer_store" />
+      <recent name="$PROJECT_DIR$/decorators/decorators_exercises/07_computer_store/project" />
       <recent name="$PROJECT_DIR$/polymorphism_and_abstraction/polymorphism_and_abstraction_exercises/04_wild_farm" />
       <recent name="$PROJECT_DIR$/polymorphism_and_abstraction" />
       <recent name="$PROJECT_DIR$/class_and_static_methods/class_and_static_methods_exercises/03_document_manager/project" />
-      <recent name="$PROJECT_DIR$/class_and_static_methods/class_and_static_methods_lab/04_hotel_rooms" />
-      <recent name="$PROJECT_DIR$/inheritance/inheritance_exercises/03_players_and_monsters" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_bolt_italic_underline">
-    <configuration name="01_logged" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_exercises/01_logged.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="03_bolt_italic_underline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_exercises/03_bolt_italic_underline.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="03_even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_lab/03_even_numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04_multiply" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_lab/04_multiply.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced_oop_september_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators/decorators_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/decorators_lab/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python_advanced_oop_september_2025" />
       <option name="ENV_FILES" value="" />
@@ -321,13 +256,95 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_prem/14_august_2024/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_prem/14_august_2024/project/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exam_prem.test_18_december_2024.project.test.test.TestGallery&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery.test_add_exhibition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exam_prem.test_18_december_2024.project.test.test.TestGallery.test_add_exhibition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery.test_gallery_name_raises" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exam_prem.test_18_december_2024.project.test.test.TestGallery.test_gallery_name_raises&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for project.test.test.TestGallery.test_list_exhibition_when_open_to_public_returns_list_of_exhibitions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced_oop_september_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;project.test.test.TestGallery.test_list_exhibition_when_open_to_public_returns_list_of_exhibitions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.03_bolt_italic_underline" />
-        <item itemvalue="Python.01_logged" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.04_multiply" />
-        <item itemvalue="Python.03_even_numbers" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery" />
+        <item itemvalue="Python tests.Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery.test_add_exhibition" />
+        <item itemvalue="Python tests.Python tests for exam_prem.test_18_december_2024.project.test.test.TestGallery.test_gallery_name_raises" />
+        <item itemvalue="Python tests.Python tests for project.test.test.TestGallery.test_list_exhibition_when_open_to_public_returns_list_of_exhibitions" />
       </list>
     </recent_temporary>
   </component>
@@ -345,38 +362,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761143619232</updated>
-    </task>
-    <task id="LOCAL-00001" summary="First Steps in OOP lab.">
-      <option name="closed" value="true" />
-      <created>1761163665227</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1761163665227</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First Steps in OOP lab.">
-      <option name="closed" value="true" />
-      <created>1761163707785</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1761163707785</updated>
-    </task>
-    <task id="LOCAL-00003" summary="First Steps in OOP lab.">
-      <option name="closed" value="true" />
-      <created>1761163720750</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1761163720750</updated>
-    </task>
-    <task id="LOCAL-00004" summary="First Steps in OOP lab.">
-      <option name="closed" value="true" />
-      <created>1761163808545</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1761163808545</updated>
     </task>
     <task id="LOCAL-00005" summary="First Steps in OOP lab.">
       <option name="closed" value="true" />
@@ -738,7 +723,39 @@
       <option name="project" value="LOCAL" />
       <updated>1763916260731</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Decorators exercises.">
+      <option name="closed" value="true" />
+      <created>1764195936557</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1764195936557</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Decorators exercises.">
+      <option name="closed" value="true" />
+      <created>1764252243078</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1764252243079</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Tests lab.">
+      <option name="closed" value="true" />
+      <created>1764278743843</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1764278743844</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Tests lab.">
+      <option name="closed" value="true" />
+      <created>1764360626063</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1764360626063</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -796,7 +813,9 @@
     <MESSAGE value="Iterators and Generators lab." />
     <MESSAGE value="Iterators and Generators exercises." />
     <MESSAGE value="Decorators lab." />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorators lab." />
+    <MESSAGE value="Decorators exercises." />
+    <MESSAGE value="Tests lab." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests lab." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

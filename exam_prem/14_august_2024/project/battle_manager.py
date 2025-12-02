@@ -1,37 +1,103 @@
-from typing import List
-
-from battleships.base_battleship import BaseBattleship
-from zones.base_zone import BaseZone
+from project.battleships.base_battleship import BaseBattleship
+from project.zones.base_zone import BaseZone
+from project.zones.royal_zone import RoyalZone
+from project.zones.pirate_zone import PirateZone
+from project.battleships.royal_battleship import RoyalBattleship
+from project.battleships.pirate_battleship import PirateBattleship
 
 
 class BattleManager:
     def __init__(self):
-        self.zones: List[BaseZone] = []
-        self.ships: List[BaseBattleship] = []
+        self.zones = []
+        self.ships = []
+
 
     def add_zone(self, zone_type: str, zone_code: str):
-        pass
+        zone_types = {'RoyalZone': RoyalZone, 'PirateZone': PirateZone}
+
+        if not zone_type in zone_types:
+            raise Exception('Invalid zone type!')
+
+        if any(zone.code == zone_code for zone in self.zones):
+            raise Exception('Zone already exists!')
+
+        zone = zone_types[zone_type](zone_code)
+        self.zones.append(zone)
+        return f'A zone of type {zone_type} was successfully added.'
+
+    def add_battleship(self, ship_type: str, name: str, health: int, hit_strength: int):
+        ship_classes = {"RoyalBattleship": RoyalBattleship, "PirateBattleship": PirateBattleship}
+
+        if ship_type not in ship_classes:
+            raise Exception(f'{ship_type} is an invalid type of ship!')
+
+        ship = ship_classes[ship_type](name, health, hit_strength)
+        self.ships.append(ship)
+
+        return f'A new {ship_type} was successfully added.'
 
     @staticmethod
-    def _find_obj_by_type(obj_type, collection):
-        if not collection:
-            return None
+    def add_ship_to_zone(zone: 'BaseZone', ship: 'BaseBattleship'):
+        
+        if zone.volume <= 0:
+            return f'Zone {zone.code} does not allow more participants!'
+        if ship.health <= 0:
+            return f'Ship {ship.name} is considered sunk! Participation not allowed!'
 
-        if isinstance(obj_type, type):
-            return next((obj for obj in collection if isinstance(obj, obj_type)), None)
+        if not ship.is_available:
+            return f'Ship {ship.name} is not available and could not participate!'
 
-        if isinstance(obj_type, str):
-            type_name = obj_type.strip()
+        if (ship.ship_type.startswith('Royal') and zone.zone_type.startswith('Royal')) \
+                or (ship.ship_type.startswith('Pirate') and zone.zone_type.startswith('Pirate')):
+            ship.is_attacking = True
         else:
-            type_name = getattr(obj_type, '__name__', str(obj_type))
+            ship.is_attacking = False
 
-        type_name = str(obj_type)
-        return next((obj for obj in collection if getattr(obj, 'type', obj.__class__.__name__) == type_name), None)
+        zone.ships.append(ship)
+        ship.is_available = False
+        zone.volume -= 1
+        return f'Ship {ship.name} successfully participated in zone {zone.code}.'
 
-    @staticmethod
-    def _find_obj_by_name(obj_name, collection):
-        if not collection or obj_name is None:
-            return None
+    def remove_battleship(self, ship_name: str):
+        ship = next((s for s in self.ships if s.name == ship_name), None)
+        if ship is None:
+            return 'No ship with this name!'
+        if not ship.is_available:
+            return 'The ship participates in zone battles! Removal is impossible!'
+        self.ships.remove(ship)
+        return f'Successfully removed ship {ship_name}.'
 
-        name = obj_name if isinstance(obj_name, str) else str(obj_name)
-        return next((obj for obj in collection if getattr(obj, "name", None) == name),None)
+    def start_battle(self, zone: BaseZone):
+        attacker = max((ship for ship in zone.ships if ship.is_attacking), key=lambda s: s.hit_strength, default=None)
+        defender = max((ship for ship in zone.ships if not ship.is_attacking), key=lambda s: s.health, default=None)
+
+        if not attacker or not defender:
+            return 'Not enough participants. The battle is canceled.'
+
+        attacker.attack()
+        defender.take_damage(attacker)
+
+        if defender.health <= 0:
+            zone.ships.remove(defender)
+            self.ships.remove(defender)
+            return f'{defender.name} lost the battle and was sunk.'
+
+        if attacker.ammunition <= 0:
+            zone.ships.remove(attacker)
+            self.ships.remove(attacker)
+            return f'{attacker.name} ran out of ammunition and leaves.'
+
+        return 'Both ships survived the battle.'
+
+    def get_statistics(self):
+        available_ships = [ship for ship in self.ships if ship.is_available]
+        available_ships_str = ', '.join(ship.name for ship in available_ships) if available_ships else ''
+
+        zones_info = '\n'.join(zone.zone_info() for zone in sorted(self.zones, key=lambda z: z.code))
+
+        result = f'Available Battleships: {len(available_ships)}\n'
+        result += f'#{available_ships_str}#\n' if available_ships else ''
+        result += (f'***Zones Statistics:***\n'
+                   f'Total Zones: {len(self.zones)}'
+                   f'\n{zones_info}')
+        return result.strip()

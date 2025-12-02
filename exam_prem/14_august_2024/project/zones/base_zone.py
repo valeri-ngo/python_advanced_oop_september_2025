@@ -1,32 +1,28 @@
 from abc import ABC, abstractmethod
-from typing import List
 
-from battleships.base_battleship import BaseBattleship
+from project.battleships.base_battleship import BaseBattleship
 
 
 class BaseZone(ABC):
-    def __init__(self, code: str, volume: int):
-        self.code: str = code
-        self.volume: int = volume
-        self.ships: List[BaseBattleship] = []
 
+    def __init__(self, code: str, volume: int):
+        self.code = code
+        self.volume = volume
+        self.ships: list[BaseBattleship] = []
 
     @property
     def code(self):
-        return self._code
+        return self.__code
 
     @code.setter
     def code(self, value):
-        if not isinstance(value, str) or not value.isdigit():
+        if not value.isdigit():
             raise ValueError('Zone code must contain digits only!')
-        self._code = value
+        self.__code = value
 
+    def get_ships(self):
+        return sorted(self.ships, key=lambda s: (-s.hit_strength, s.name))
 
     @abstractmethod
     def zone_info(self):
         pass
-
-
-    def get_ships(self):
-        battleships_sorted = sorted(self.ships, key= lambda x: (-x.hit_strength, x.name))
-        return battleships_sorted
